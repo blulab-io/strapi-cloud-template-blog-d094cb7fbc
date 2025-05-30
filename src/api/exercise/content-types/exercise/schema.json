@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "exercises",
+  "info": {
+    "singularName": "exercise",
+    "pluralName": "exercises",
+    "displayName": "Exercise"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "videoUrl": {
+      "type": "string"
+    },
+    "instructions": {
+      "type": "text"
+    }
+  }
+}
